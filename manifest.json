@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "nightcorepitch",
 	"description": "Listen to nightcore style music for Youtube",
-	"version": "0.0.1",
+	"version": "2026.0.0",
 	"icons": {
 		"64": "icons/icon.png"
 	},
