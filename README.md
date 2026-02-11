@@ -58,7 +58,7 @@ git clone https://github.com/Nguyen17/NightCorePitch.git
 git clone https://github.com/Nguyen17/NightCorePitch.git
 ```
 
-2. _Open Chrome or Brave browser and navigate to `chrome://extensions/` (or `brave://extensions/` for Brave)_
+2. _Open Chrome or Brave browser and navigate to `chrome://extensions/`_
 
 3. _Enable "Developer mode" by toggling the switch in the top right corner_
 

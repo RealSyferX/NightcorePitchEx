@@ -1,4 +1,6 @@
 var count = 0;
+// Cross-browser compatibility: Firefox uses 'browser', Chrome/Brave uses 'chrome'
+const browserAPI = (typeof browser !== 'undefined' ? browser : chrome);
 
 document.addEventListener("DOMContentLoaded", function() {
   // Initialize Variables
@@ -9,8 +11,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // NIGHTCORE MODE
   nightcoreBtn.addEventListener("click", function() {
-    // Cross-browser compatibility: Firefox uses 'browser', Chrome/Brave uses 'chrome'
-    const browserAPI = (typeof browser !== 'undefined' ? browser : chrome);
     browserAPI.tabs.executeScript({
       file: "./nightcore.js"
     });
