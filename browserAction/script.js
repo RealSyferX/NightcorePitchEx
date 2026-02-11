@@ -9,7 +9,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // NIGHTCORE MODE
   nightcoreBtn.addEventListener("click", function() {
-    browser.tabs.executeScript({
+    // Cross-browser compatibility: Firefox uses 'browser', Chrome/Brave uses 'chrome'
+    var browserAPI = (typeof browser !== 'undefined' ? browser : chrome);
+    browserAPI.tabs.executeScript({
       file: "./nightcore.js"
     });
   });
