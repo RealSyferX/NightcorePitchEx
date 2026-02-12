@@ -28,7 +28,7 @@ _if it's not working or anything, try to refresh the page ^^_
 1. *Clone into a directory of your choice.*
 
 ```
-git clone https://github.com/Nguyen17/NightCorePitch.git
+git clone https://github.com/RealSyferX/NightcorePitchEx.git
 ```
 
 2. _Open firefox browser and in the url type "about:debugging" to open extension tab._
